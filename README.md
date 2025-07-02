@@ -20,11 +20,10 @@ A simple FastAPI-based RESTful API to manage products in an e-commerce catalog.
 ---
 
 ## 📸 Demo Screenshot
-<h3>Add product</h3>
+
 <img src="Swagger UI.png" alt="Swagger UI" width="800">
-<h3>Update product using id </h3>
-<img src="Swagger2 UI.png"  alt
-="Swagger2 UI" width="800">
+
+
 
 ## Tech Stack
 
