@@ -38,6 +38,9 @@ class ProductOut(ProductCreate):
 # Routes
 @app.post("/products/", response_model=ProductOut)
 def create_product(product: ProductCreate, db: Session = Depends(get_db)):
+    """
+    Create a new producct entry in the database.
+    """
     db_product = models.Product(**product.dict())
     db.add(db_product)
     db.commit()
